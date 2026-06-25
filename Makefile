@@ -27,8 +27,8 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 DESTDIR =
-PREFIX = /usr/local
-MODE = debug
+PREFIX ?= /usr/local
+MODE ?= debug
 
 sinclude config.mk
 
